@@ -57,8 +57,8 @@ Assim, nesse projeto criamos:
 - **Pesquisa de contas/senhas**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/ClYsR45.jpg" width="250">______
-  <img src="https://i.imgur.com/1VqjWZM.jpg" width=250>
+  <img src="https://i.imgur.com/w4iF86T.png" width="250">______
+  <img src="https://i.imgur.com/NAcnmR1.png" width=250>
 </div>
 
 ---
