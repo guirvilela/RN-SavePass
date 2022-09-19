@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 import {
   Container,
@@ -10,7 +10,7 @@ import {
   LoginData,
   BoldTitle,
   Email,
-} from './styles';
+} from "./styles";
 
 interface Props {
   service_name: string;
@@ -18,11 +18,7 @@ interface Props {
   password: string;
 }
 
-export function LoginDataItem({
-  service_name,
-  email,
-  password
-}: Props) {
+export function LoginDataItem({ service_name, email, password }: Props) {
   const [passIsVisible, setPassIsVisible] = useState(false);
 
   function handleTogglePassIsVisible() {
@@ -30,37 +26,25 @@ export function LoginDataItem({
   }
 
   return (
-    <Container
-      colors={[
-        passIsVisible
-          ? '#EBF2FF'
-          : '#ffffff',
-        '#ffffff'
-      ]}
-    >
-      <ShowPasswordButton
-        onPress={handleTogglePassIsVisible}
-      >
+    <Container colors={[passIsVisible ? "#EBF2FF" : "#ffffff", "#ffffff"]}>
+      <ShowPasswordButton onPress={handleTogglePassIsVisible}>
         <Icon
           name={passIsVisible ? "eye" : "eye-off"}
-          color={passIsVisible ? '#1967FB' : '#888D97'}
+          color={passIsVisible ? "#1967FB" : "#888D97"}
         />
       </ShowPasswordButton>
 
-      {passIsVisible
-        ? (
-          <PassData>
-            <Title>{service_name}</Title>
-            <Password>{password}</Password>
-          </PassData>
-        )
-        : (
-          <LoginData>
-            <BoldTitle>{service_name}</BoldTitle>
-            <Email>{email}</Email>
-          </LoginData>
-        )
-      }
+      {passIsVisible ? (
+        <PassData>
+          <Title>{service_name}</Title>
+          <Password>{password}</Password>
+        </PassData>
+      ) : (
+        <LoginData>
+          <BoldTitle>{service_name}</BoldTitle>
+          <Email>{email}</Email>
+        </LoginData>
+      )}
     </Container>
   );
 }
