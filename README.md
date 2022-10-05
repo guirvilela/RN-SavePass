@@ -32,7 +32,7 @@ Além disso, revisamos estruturas com Try-Catch, ou seja, tratamos possíveis er
 - **Página Inicial**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/RtD29ra.png" width="250">____<img src="https://i.imgur.com/mQNWMCa.gif" width=220>____<img src="https://i.imgur.com/NAcnmR1.png" width="250">
+  <img src="https://i.imgur.com/RtD29ra.png" width="250">____<img src="https://i.imgur.com/qNySX08.gif" width=220>____<img src="https://i.imgur.com/NAcnmR1.png" width="250">
 </div>
 
 ---
@@ -57,8 +57,8 @@ Assim, nesse projeto criamos:
 - **Pesquisa de contas/senhas**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/w4iF86T.png" width="220">______
-  <img src="https://i.imgur.com/rATmNuS.png" width="220">______
+  <img src="https://i.imgur.com/w4iF86T.png" width="250">______
+
   <img src="https://i.imgur.com/NAcnmR1.png" width=250>
 </div>
 
